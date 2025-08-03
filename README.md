@@ -89,6 +89,12 @@ You can customize components in the `/components/ui/` folder.
 ```
 
 ---
+## React Profiler Report
+
+Here is a screenshot of the React Profiler showing the flamegraph:
+
+![Profiler Screenshot](./assets/Screenshot%20(18).png)
+
 
 
 ## 📄 License
