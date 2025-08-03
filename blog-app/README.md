@@ -99,7 +99,7 @@ MIT — free to use and modify.
 
 ## 👤 Author
 
-Made with ❤️ by [Sowmiyaa G V(]https://github.com/your-username)
+Made with ❤️ by [Sowmiyaa G V(]https://github.com/Sowmiyaagv)
 
 ```
 
