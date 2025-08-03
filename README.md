@@ -93,7 +93,7 @@ You can customize components in the `/components/ui/` folder.
 
 Here is a screenshot of the React Profiler showing the flamegraph:
 
-![Profiler Screenshot](./assets/Screenshot%20(18).png)
+![Profiler Screenshot](https://github.com/Sowmiyaagv/Blog-app/blob/main/Screenshot%20(18).png)
 
 
 
