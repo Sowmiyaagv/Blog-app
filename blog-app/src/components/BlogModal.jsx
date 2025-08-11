@@ -22,11 +22,11 @@ export default function BlogModal({ open, setOpen, onCreate }) {
   return (
     <div
       onClick={() => setOpen(false)}
-      className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center p-4 z-50"
+      className="fixed inset-0 bg-[#e2c8b0]/80 flex items-center justify-center z-50"
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="bg-white rounded-lg max-w-lg w-full p-6 shadow-lg"
+        className="bg-gradient-to-br from-[#e2c8b0] via-[#a97c50] to-[#7c5a3e] rounded-lg max-w-lg w-full p-6 shadow-lg text-[#5e4444]"
       >
         <h2 className="text-2xl mb-4 font-bold">Create New Blog</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -61,7 +61,10 @@ export default function BlogModal({ open, setOpen, onCreate }) {
             >
               Cancel
             </button>
-            <button type="submit" className="px-4 py-2 rounded bg-indigo-600 text-white">
+            <button
+              type="submit"
+              className="px-4 py-2 rounded bg-[#c89f9c] hover:bg-[#b38c8b] text-white font-semibold transition"
+            >
               Save
             </button>
           </div>
